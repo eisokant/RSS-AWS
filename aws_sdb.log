@@ -1,0 +1,237 @@
+# Logfile created on Fri Jul 24 16:51:49 +0200 2009 by /
+D, [2009-07-24T16:51:49.866000 #476] DEBUG -- : http://sdb.amazonaws.com?Action=CreateDomain&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&SignatureVersion=1&Timestamp=2009-07-24T14%3A51%3A49Z&Version=2007-11-07&Signature=0NKF0Mc92KlreARyTZ%2BVR3u1doI%3D
+D, [2009-07-24T16:51:56.128000 #476] DEBUG -- : 200
+<?xml version="1.0"?>
+<CreateDomainResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>d583ce8c-ed46-1cc7-1543-fdcf67a713fc</RequestId><BoxUsage>0.0055590278</BoxUsage></ResponseMetadata></CreateDomainResponse>
+D, [2009-07-24T16:51:56.132000 #476] DEBUG -- : http://sdb.amazonaws.com?Action=ListDomains&AWSAccessKeyId=0NP33638CHYCXCYGKB82&SignatureVersion=1&Timestamp=2009-07-24T14%3A51%3A56Z&Version=2007-11-07&Signature=bGvyHVNrHp55Z7vMfwPkEpz3aGc%3D
+D, [2009-07-24T16:51:56.522000 #476] DEBUG -- : 200
+<?xml version="1.0"?>
+<ListDomainsResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ListDomainsResult><DomainName>client</DomainName><DomainName>twollars_test</DomainName></ListDomainsResult><ResponseMetadata><RequestId>eb701378-921f-c2d7-4667-e04a94d7f253</RequestId><BoxUsage>0.0000071759</BoxUsage></ResponseMetadata></ListDomainsResponse>
+D, [2009-07-24T16:52:40.450000 #2964] DEBUG -- : http://sdb.amazonaws.com?Action=CreateDomain&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&SignatureVersion=1&Timestamp=2009-07-24T14%3A52%3A40Z&Version=2007-11-07&Signature=yQz3GHdmKhRGYcCB7M31jaNVEJw%3D
+D, [2009-07-24T16:52:45.942000 #2964] DEBUG -- : 200
+<?xml version="1.0"?>
+<CreateDomainResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>8af38dec-962e-c83a-4004-3ca24fad7921</RequestId><BoxUsage>0.0055590278</BoxUsage></ResponseMetadata></CreateDomainResponse>
+D, [2009-07-24T16:52:45.947000 #2964] DEBUG -- : http://sdb.amazonaws.com?Action=DeleteDomain&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=client&SignatureVersion=1&Timestamp=2009-07-24T14%3A52%3A45Z&Version=2007-11-07&Signature=rzvJmEoS7kL7ZY8Ft2Pe%2BNBhwm4%3D
+D, [2009-07-24T16:52:54.553000 #2964] DEBUG -- : 200
+<?xml version="1.0"?>
+<DeleteDomainResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>97d2f107-695e-6e9d-aacc-1d164b44b49f</RequestId><BoxUsage>0.0055590278</BoxUsage></ResponseMetadata></DeleteDomainResponse>
+D, [2009-07-24T16:52:54.557000 #2964] DEBUG -- : http://sdb.amazonaws.com?Action=ListDomains&AWSAccessKeyId=0NP33638CHYCXCYGKB82&SignatureVersion=1&Timestamp=2009-07-24T14%3A52%3A54Z&Version=2007-11-07&Signature=cvLzSp9rtC0PKZIfQyWVSjfEoEE%3D
+D, [2009-07-24T16:52:55.153000 #2964] DEBUG -- : 200
+<?xml version="1.0"?>
+<ListDomainsResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ListDomainsResult><DomainName>twollars_test</DomainName></ListDomainsResult><ResponseMetadata><RequestId>90315dd6-1f47-572f-9e58-44bf9ffa0fd6</RequestId><BoxUsage>0.0000071759</BoxUsage></ResponseMetadata></ListDomainsResponse>
+D, [2009-07-24T17:06:05.969000 #476] DEBUG -- : http://sdb.amazonaws.com?Action=CreateDomain&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&SignatureVersion=1&Timestamp=2009-07-24T15%3A06%3A05Z&Version=2007-11-07&Signature=vCB%2F%2B4hRQHXJYBzhTVY4s68B%2FZg%3D
+D, [2009-07-24T17:06:11.507000 #476] DEBUG -- : 200
+<?xml version="1.0"?>
+<CreateDomainResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>d0d2fd2b-acc9-871f-1e33-ddac96e3d173</RequestId><BoxUsage>0.0055590278</BoxUsage></ResponseMetadata></CreateDomainResponse>
+D, [2009-07-24T17:06:11.511000 #476] DEBUG -- : http://sdb.amazonaws.com?Action=ListDomains&AWSAccessKeyId=0NP33638CHYCXCYGKB82&SignatureVersion=1&Timestamp=2009-07-24T15%3A06%3A11Z&Version=2007-11-07&Signature=roEOiDy1AEQlJ8Wt2undgRT3tdA%3D
+D, [2009-07-24T17:06:11.880000 #476] DEBUG -- : 200
+<?xml version="1.0"?>
+<ListDomainsResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ListDomainsResult><DomainName>twollars_test</DomainName></ListDomainsResult><ResponseMetadata><RequestId>a0f76880-5502-e768-f56b-77631e69d128</RequestId><BoxUsage>0.0000071759</BoxUsage></ResponseMetadata></ListDomainsResponse>
+D, [2009-07-24T17:06:49.535000 #2880] DEBUG -- : http://sdb.amazonaws.com?Action=CreateDomain&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&SignatureVersion=1&Timestamp=2009-07-24T15%3A06%3A49Z&Version=2007-11-07&Signature=ODeKauMMohmY1FNF4d8ARoXONaQ%3D
+D, [2009-07-24T17:06:55.055000 #2880] DEBUG -- : 200
+<?xml version="1.0"?>
+<CreateDomainResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>05900170-aa1f-752d-8c50-0e31378884ea</RequestId><BoxUsage>0.0055590278</BoxUsage></ResponseMetadata></CreateDomainResponse>
+D, [2009-07-24T17:06:55.057000 #2880] DEBUG -- : http://sdb.amazonaws.com?Action=ListDomains&AWSAccessKeyId=0NP33638CHYCXCYGKB82&SignatureVersion=1&Timestamp=2009-07-24T15%3A06%3A55Z&Version=2007-11-07&Signature=UfT7SJBXwxRP8%2BwTsFE8EMQDhoA%3D
+D, [2009-07-24T17:06:55.541000 #2880] DEBUG -- : 200
+<?xml version="1.0"?>
+<ListDomainsResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ListDomainsResult><DomainName>twollars_test</DomainName></ListDomainsResult><ResponseMetadata><RequestId>8fd02446-1bfa-add6-6cb0-89ae5b056f98</RequestId><BoxUsage>0.0000071759</BoxUsage></ResponseMetadata></ListDomainsResponse>
+D, [2009-07-24T17:08:54.433000 #3636] DEBUG -- : http://sdb.amazonaws.com?Action=CreateDomain&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&SignatureVersion=1&Timestamp=2009-07-24T15%3A08%3A54Z&Version=2007-11-07&Signature=MhRuIl%2B76hYhptrFpQtTU22z%2FeM%3D
+D, [2009-07-24T17:09:00.027000 #3636] DEBUG -- : 200
+<?xml version="1.0"?>
+<CreateDomainResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>302afe2a-e965-a053-4a9c-86c2903cd466</RequestId><BoxUsage>0.0055590278</BoxUsage></ResponseMetadata></CreateDomainResponse>
+D, [2009-07-24T17:09:00.032000 #3636] DEBUG -- : http://sdb.amazonaws.com?Action=ListDomains&AWSAccessKeyId=0NP33638CHYCXCYGKB82&SignatureVersion=1&Timestamp=2009-07-24T15%3A09%3A00Z&Version=2007-11-07&Signature=%2FAtWBZOUHZX%2B1hgo5ptzRObDueQ%3D
+D, [2009-07-24T17:09:00.411000 #3636] DEBUG -- : 200
+<?xml version="1.0"?>
+<ListDomainsResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ListDomainsResult><DomainName>twollars_test</DomainName></ListDomainsResult><ResponseMetadata><RequestId>0ff5181e-06d7-ead0-62b9-c7e0b4b4ee60</RequestId><BoxUsage>0.0000071759</BoxUsage></ResponseMetadata></ListDomainsResponse>
+D, [2009-07-24T17:09:27.479000 #3676] DEBUG -- : http://sdb.amazonaws.com?Action=CreateDomain&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&SignatureVersion=1&Timestamp=2009-07-24T15%3A09%3A27Z&Version=2007-11-07&Signature=eyVtFkdAPvCXtD447xE1TyGT6WA%3D
+D, [2009-07-24T17:09:33.058000 #3676] DEBUG -- : 200
+<?xml version="1.0"?>
+<CreateDomainResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>549a6aa3-d98b-9bf9-4658-6eb37fad8a73</RequestId><BoxUsage>0.0055590278</BoxUsage></ResponseMetadata></CreateDomainResponse>
+D, [2009-07-24T17:09:33.062000 #3676] DEBUG -- : http://sdb.amazonaws.com?Action=ListDomains&AWSAccessKeyId=0NP33638CHYCXCYGKB82&SignatureVersion=1&Timestamp=2009-07-24T15%3A09%3A33Z&Version=2007-11-07&Signature=QzCgeZkWNdWyGY5w9tgkcSHiaZ8%3D
+D, [2009-07-24T17:09:33.443000 #3676] DEBUG -- : 200
+<?xml version="1.0"?>
+<ListDomainsResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ListDomainsResult><DomainName>twollars_test</DomainName></ListDomainsResult><ResponseMetadata><RequestId>6670a6cd-978c-066d-225c-9bd162d59441</RequestId><BoxUsage>0.0000071759</BoxUsage></ResponseMetadata></ListDomainsResponse>
+D, [2009-07-24T17:10:05.299000 #3056] DEBUG -- : http://sdb.amazonaws.com?Action=CreateDomain&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&SignatureVersion=1&Timestamp=2009-07-24T15%3A10%3A05Z&Version=2007-11-07&Signature=T28sBsywZkHLTudaQsDbe0EmAn4%3D
+D, [2009-07-24T17:10:10.889000 #3056] DEBUG -- : 200
+<?xml version="1.0"?>
+<CreateDomainResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>65b270e5-64f8-6eef-227a-f3ab8a382ace</RequestId><BoxUsage>0.0055590278</BoxUsage></ResponseMetadata></CreateDomainResponse>
+D, [2009-07-24T17:10:10.893000 #3056] DEBUG -- : http://sdb.amazonaws.com?Action=ListDomains&AWSAccessKeyId=0NP33638CHYCXCYGKB82&SignatureVersion=1&Timestamp=2009-07-24T15%3A10%3A10Z&Version=2007-11-07&Signature=%2BTrL0Z5vTkMFfe4QCgs%2FlhVALGQ%3D
+D, [2009-07-24T17:10:11.255000 #3056] DEBUG -- : 200
+<?xml version="1.0"?>
+<ListDomainsResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ListDomainsResult><DomainName>twollars_test</DomainName></ListDomainsResult><ResponseMetadata><RequestId>d1a34330-46b5-6f2c-2fbd-e72c53284063</RequestId><BoxUsage>0.0000071759</BoxUsage></ResponseMetadata></ListDomainsResponse>
+D, [2009-07-24T17:11:28.417000 #2224] DEBUG -- : http://sdb.amazonaws.com?Action=CreateDomain&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&SignatureVersion=1&Timestamp=2009-07-24T15%3A11%3A28Z&Version=2007-11-07&Signature=K7%2BV%2FQj7f09nd8ZCDyvu52yDB64%3D
+D, [2009-07-24T17:11:34.018000 #2224] DEBUG -- : 200
+<?xml version="1.0"?>
+<CreateDomainResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>6269f25f-1c45-aaf1-45de-53e0b408bd6f</RequestId><BoxUsage>0.0055590278</BoxUsage></ResponseMetadata></CreateDomainResponse>
+D, [2009-07-24T17:11:34.022000 #2224] DEBUG -- : http://sdb.amazonaws.com?Action=ListDomains&AWSAccessKeyId=0NP33638CHYCXCYGKB82&SignatureVersion=1&Timestamp=2009-07-24T15%3A11%3A34Z&Version=2007-11-07&Signature=l9Rz5MTokomf7DTcJPn7MBfASks%3D
+D, [2009-07-24T17:11:34.421000 #2224] DEBUG -- : 200
+<?xml version="1.0"?>
+<ListDomainsResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ListDomainsResult><DomainName>twollars_test</DomainName></ListDomainsResult><ResponseMetadata><RequestId>c04057a8-8250-bd21-ae84-ac379147e3a2</RequestId><BoxUsage>0.0000071759</BoxUsage></ResponseMetadata></ListDomainsResponse>
+D, [2009-07-24T17:11:34.429000 #2224] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Name&Attribute.0.Replace=true&Attribute.0.Value=Eiso+Kant&Attribute.1.Name=Email&Attribute.1.Replace=true&Attribute.1.Value=eisokant%40gmail.com&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A11%3A34Z&Version=2007-11-07&Signature=gIvbo%2B8ZUkMkQqfLM9suGTdp7Wo%3D
+D, [2009-07-24T17:11:34.880000 #2224] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>d099c326-ef25-ea1a-9aef-169de3eaaa58</RequestId><BoxUsage>0.0000219923</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:11:34.883000 #2224] DEBUG -- : http://sdb.amazonaws.com?Action=GetAttributes&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A11%3A34Z&Version=2007-11-07&Signature=hh0OoRG1rtwSeerrggehTOsBkUw%3D
+D, [2009-07-24T17:11:35.247000 #2224] DEBUG -- : 200
+<?xml version="1.0"?>
+<GetAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><GetAttributesResult><Attribute><Name>Name</Name><Value>Eiso Kant</Value></Attribute><Attribute><Name>Email</Name><Value>eisokant@gmail.com</Value></Attribute></GetAttributesResult><ResponseMetadata><RequestId>b7eba55b-f62e-c765-18f7-68fded1c28b0</RequestId><BoxUsage>0.0000093282</BoxUsage></ResponseMetadata></GetAttributesResponse>
+D, [2009-07-24T17:14:24.302000 #3636] DEBUG -- : http://sdb.amazonaws.com?Action=CreateDomain&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&SignatureVersion=1&Timestamp=2009-07-24T15%3A14%3A24Z&Version=2007-11-07&Signature=IZSXeqP61jDjKYsEvj9wsFuqG4M%3D
+D, [2009-07-24T17:14:30.346000 #3636] DEBUG -- : 200
+<?xml version="1.0"?>
+<CreateDomainResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>20541704-e6c7-81a8-fea4-91a41fe79ca9</RequestId><BoxUsage>0.0055590278</BoxUsage></ResponseMetadata></CreateDomainResponse>
+D, [2009-07-24T17:14:30.350000 #3636] DEBUG -- : http://sdb.amazonaws.com?Action=ListDomains&AWSAccessKeyId=0NP33638CHYCXCYGKB82&SignatureVersion=1&Timestamp=2009-07-24T15%3A14%3A30Z&Version=2007-11-07&Signature=zndj8nuLNe%2BJmbb4nCy6vJgKkTg%3D
+D, [2009-07-24T17:14:30.726000 #3636] DEBUG -- : 200
+<?xml version="1.0"?>
+<ListDomainsResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ListDomainsResult><DomainName>twollars_test</DomainName></ListDomainsResult><ResponseMetadata><RequestId>fb86b1c2-7979-39af-dc07-533594ab88de</RequestId><BoxUsage>0.0000071759</BoxUsage></ResponseMetadata></ListDomainsResponse>
+D, [2009-07-24T17:14:30.739000 #3636] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Name&Attribute.0.Replace=true&Attribute.0.Value=Eiso+Kant&Attribute.1.Name=Email&Attribute.1.Replace=true&Attribute.1.Value=eisokant%40gmail.com&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A14%3A30Z&Version=2007-11-07&Signature=0i1kx7FgJ16LP6axZN%2Bm2nU6UiE%3D
+D, [2009-07-24T17:14:31.189000 #3636] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>d519dd4b-92d6-441f-43b1-250cc0a66ef2</RequestId><BoxUsage>0.0000219923</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:14:31.193000 #3636] DEBUG -- : http://sdb.amazonaws.com?Action=GetAttributes&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A14%3A31Z&Version=2007-11-07&Signature=lDIzhoRfUOW%2FjaRYQxnBZw3XDb4%3D
+D, [2009-07-24T17:14:31.575000 #3636] DEBUG -- : 200
+<?xml version="1.0"?>
+<GetAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><GetAttributesResult><Attribute><Name>Name</Name><Value>Eiso Kant</Value></Attribute><Attribute><Name>Email</Name><Value>eisokant@gmail.com</Value></Attribute></GetAttributesResult><ResponseMetadata><RequestId>dff17126-5a4b-3ae8-b6cc-943fd0f26c5e</RequestId><BoxUsage>0.0000093282</BoxUsage></ResponseMetadata></GetAttributesResponse>
+D, [2009-07-24T17:14:31.593000 #3636] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=balance&Attribute.0.Replace=true&Attribute.0.Value=1&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A14%3A31Z&Version=2007-11-07&Signature=yL6AlkLzJ4rRu3Jooh29Sbva4o0%3D
+D, [2009-07-24T17:14:32.025000 #3636] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>1c4c19f0-ca10-f38b-d9e2-323d464952c9</RequestId><BoxUsage>0.0000219909</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:14:32.029000 #3636] DEBUG -- : http://sdb.amazonaws.com?Action=GetAttributes&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A14%3A32Z&Version=2007-11-07&Signature=C%2BrFNVhd9vsthsNtcgfGd%2BnAkiA%3D
+D, [2009-07-24T17:14:32.410000 #3636] DEBUG -- : 200
+<?xml version="1.0"?>
+<GetAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><GetAttributesResult><Attribute><Name>Name</Name><Value>Eiso Kant</Value></Attribute><Attribute><Name>balance</Name><Value>1</Value></Attribute><Attribute><Name>Email</Name><Value>eisokant@gmail.com</Value></Attribute></GetAttributesResult><ResponseMetadata><RequestId>5423e8e1-9374-bab1-65cd-4c5b4818f334</RequestId><BoxUsage>0.0000093382</BoxUsage></ResponseMetadata></GetAttributesResponse>
+D, [2009-07-24T17:14:32.434000 #3636] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Email&Attribute.0.Replace=true&Attribute.0.Value=contact%40eiso-kant.com&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A14%3A32Z&Version=2007-11-07&Signature=LH4Ua99Mr12wbRZtLG%2FHt4j9Om0%3D
+D, [2009-07-24T17:14:32.865000 #3636] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>d05ca153-5595-eb9d-cea2-4bd29bccbd35</RequestId><BoxUsage>0.0000219909</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:14:32.869000 #3636] DEBUG -- : http://sdb.amazonaws.com?Action=GetAttributes&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A14%3A32Z&Version=2007-11-07&Signature=C%2BrFNVhd9vsthsNtcgfGd%2BnAkiA%3D
+D, [2009-07-24T17:14:33.236000 #3636] DEBUG -- : 200
+<?xml version="1.0"?>
+<GetAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><GetAttributesResult><Attribute><Name>Name</Name><Value>Eiso Kant</Value></Attribute><Attribute><Name>balance</Name><Value>1</Value></Attribute><Attribute><Name>Email</Name><Value>contact@eiso-kant.com</Value></Attribute></GetAttributesResult><ResponseMetadata><RequestId>d450f38c-9214-2597-74a6-3aaf5701f072</RequestId><BoxUsage>0.0000093382</BoxUsage></ResponseMetadata></GetAttributesResponse>
+D, [2009-07-24T17:16:37.224000 #4076] DEBUG -- : http://sdb.amazonaws.com?Action=CreateDomain&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&SignatureVersion=1&Timestamp=2009-07-24T15%3A16%3A37Z&Version=2007-11-07&Signature=B0NsgEI5Y3TLskSmXEQB9lHDS%2Fw%3D
+D, [2009-07-24T17:16:45.343000 #4076] DEBUG -- : 200
+<?xml version="1.0"?>
+<CreateDomainResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>0d332be9-afdd-1b4c-7b52-a56c42f95084</RequestId><BoxUsage>0.0055590278</BoxUsage></ResponseMetadata></CreateDomainResponse>
+D, [2009-07-24T17:16:45.347000 #4076] DEBUG -- : http://sdb.amazonaws.com?Action=ListDomains&AWSAccessKeyId=0NP33638CHYCXCYGKB82&SignatureVersion=1&Timestamp=2009-07-24T15%3A16%3A45Z&Version=2007-11-07&Signature=08Iz7LgwsjKXBYoxvKbhf9e%2F6A4%3D
+D, [2009-07-24T17:16:45.721000 #4076] DEBUG -- : 200
+<?xml version="1.0"?>
+<ListDomainsResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ListDomainsResult><DomainName>twollars_test</DomainName></ListDomainsResult><ResponseMetadata><RequestId>a2ec9084-a53e-eb4b-12ce-87e400eeaebf</RequestId><BoxUsage>0.0000071759</BoxUsage></ResponseMetadata></ListDomainsResponse>
+D, [2009-07-24T17:16:45.734000 #4076] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Name&Attribute.0.Replace=true&Attribute.0.Value=Eiso+Kant&Attribute.1.Name=Email&Attribute.1.Replace=true&Attribute.1.Value=eisokant%40gmail.com&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A16%3A45Z&Version=2007-11-07&Signature=inWZu8urY0Tt4TFADTMMAyEK3uA%3D
+D, [2009-07-24T17:16:46.176000 #4076] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>f33ab80a-a48d-1b9f-ec47-ff2934edf5c2</RequestId><BoxUsage>0.0000219923</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:16:46.180000 #4076] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=balance&Attribute.0.Replace=true&Attribute.0.Value=1&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A16%3A46Z&Version=2007-11-07&Signature=19dBP0L3hodgHnxGtQEwofOAWBk%3D
+D, [2009-07-24T17:16:46.625000 #4076] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>21137501-4d79-ef86-eacd-bc71dd63d825</RequestId><BoxUsage>0.0000219909</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:16:46.630000 #4076] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Email&Attribute.0.Replace=true&Attribute.0.Value=contact%40eiso-kant.com&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A16%3A46Z&Version=2007-11-07&Signature=Vq2TEkWQPEwkwmpsBnqt4cQzVeU%3D
+D, [2009-07-24T17:16:47.047000 #4076] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>21f30219-553a-b2e4-3027-e9e102cf0c34</RequestId><BoxUsage>0.0000219909</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:16:47.052000 #4076] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Naam&Attribute.0.Replace=true&Attribute.0.Value=Jan&Attribute.1.Name=email&Attribute.1.Replace=true&Attribute.1.Value=jan%40jan.nl&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=2&SignatureVersion=1&Timestamp=2009-07-24T15%3A16%3A47Z&Version=2007-11-07&Signature=sOWB2lSMftBb%2B%2Bks8TXzP1QtMKA%3D
+D, [2009-07-24T17:16:47.487000 #4076] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>672095d0-8039-069c-43d7-e66c1c6e93e9</RequestId><BoxUsage>0.0000219923</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:16:47.491000 #4076] DEBUG -- : http://sdb.amazonaws.com?Action=GetAttributes&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=&SignatureVersion=1&Timestamp=2009-07-24T15%3A16%3A47Z&Version=2007-11-07&Signature=%2FcEaNlZnObfyCt5nNsD5FYhnjcE%3D
+D, [2009-07-24T17:16:47.848000 #4076] DEBUG -- : 400
+<?xml version="1.0"?>
+<Response><Errors><Error><Code>MissingParameter</Code><Message>The request must contain the parameter ItemName</Message><BoxUsage>0.0000093202</BoxUsage></Error></Errors><RequestID>3cc0cbf5-9adf-f007-c4ea-3b11e9b0e18e</RequestID></Response>
+D, [2009-07-24T17:17:23.383000 #1112] DEBUG -- : http://sdb.amazonaws.com?Action=CreateDomain&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&SignatureVersion=1&Timestamp=2009-07-24T15%3A17%3A23Z&Version=2007-11-07&Signature=ydyoy8K63dQDU3%2Bah3cfoJa7RQo%3D
+D, [2009-07-24T17:17:28.889000 #1112] DEBUG -- : 200
+<?xml version="1.0"?>
+<CreateDomainResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>69bd4a69-ef63-8dd3-42fe-9305e737b27f</RequestId><BoxUsage>0.0055590278</BoxUsage></ResponseMetadata></CreateDomainResponse>
+D, [2009-07-24T17:17:28.893000 #1112] DEBUG -- : http://sdb.amazonaws.com?Action=ListDomains&AWSAccessKeyId=0NP33638CHYCXCYGKB82&SignatureVersion=1&Timestamp=2009-07-24T15%3A17%3A28Z&Version=2007-11-07&Signature=BSp1BxM1jViMlkI2sseW3WYxOLQ%3D
+D, [2009-07-24T17:17:29.260000 #1112] DEBUG -- : 200
+<?xml version="1.0"?>
+<ListDomainsResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ListDomainsResult><DomainName>twollars_test</DomainName></ListDomainsResult><ResponseMetadata><RequestId>05c9963f-11e7-d39d-d106-b8aa926f2215</RequestId><BoxUsage>0.0000071759</BoxUsage></ResponseMetadata></ListDomainsResponse>
+D, [2009-07-24T17:17:29.274000 #1112] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Name&Attribute.0.Replace=true&Attribute.0.Value=Eiso+Kant&Attribute.1.Name=Email&Attribute.1.Replace=true&Attribute.1.Value=eisokant%40gmail.com&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A17%3A29Z&Version=2007-11-07&Signature=q%2FZWUY6MUFOjxg1lFfmB1qlv4o4%3D
+D, [2009-07-24T17:17:29.708000 #1112] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>81f850f8-5071-c0dc-c3df-de5950b123bd</RequestId><BoxUsage>0.0000219923</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:17:29.712000 #1112] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=balance&Attribute.0.Replace=true&Attribute.0.Value=1&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A17%3A29Z&Version=2007-11-07&Signature=TabxVLN42wAfGlBBRLAp22ypCHA%3D
+D, [2009-07-24T17:17:30.178000 #1112] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>63b8229b-9e8b-a766-c558-7c5b942e26ee</RequestId><BoxUsage>0.0000219909</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:17:30.182000 #1112] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Email&Attribute.0.Replace=true&Attribute.0.Value=contact%40eiso-kant.com&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A17%3A30Z&Version=2007-11-07&Signature=rufHhHktr1y%2BLrAtnkVesH7WV%2Bg%3D
+D, [2009-07-24T17:17:30.611000 #1112] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>49615ef7-3180-a2ad-9242-a32f8a05370a</RequestId><BoxUsage>0.0000219909</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:17:30.615000 #1112] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Naam&Attribute.0.Replace=true&Attribute.0.Value=Jan&Attribute.1.Name=email&Attribute.1.Replace=true&Attribute.1.Value=jan%40jan.nl&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=2&SignatureVersion=1&Timestamp=2009-07-24T15%3A17%3A30Z&Version=2007-11-07&Signature=0%2F2nFwUVk2oUF%2BkaDX7tw2PPgz8%3D
+D, [2009-07-24T17:17:31.068000 #1112] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>568ef9bb-8601-c507-8055-c5b133a84f6d</RequestId><BoxUsage>0.0000219923</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:17:31.072000 #1112] DEBUG -- : http://sdb.amazonaws.com?Action=Query&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&QueryExpression=&SignatureVersion=1&Timestamp=2009-07-24T15%3A17%3A31Z&Version=2007-11-07&Signature=%2FCVEcidCdUT65eDX3QQeBPVVi1o%3D
+D, [2009-07-24T17:17:31.458000 #1112] DEBUG -- : 200
+<?xml version="1.0"?>
+<QueryResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><QueryResult><ItemName>1</ItemName><ItemName>2</ItemName></QueryResult><ResponseMetadata><RequestId>0386db66-642c-0fc8-4a71-4da3b968235a</RequestId><BoxUsage>0.0000140160</BoxUsage></ResponseMetadata></QueryResponse>
+D, [2009-07-24T17:18:12.161000 #3020] DEBUG -- : http://sdb.amazonaws.com?Action=CreateDomain&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&SignatureVersion=1&Timestamp=2009-07-24T15%3A18%3A12Z&Version=2007-11-07&Signature=s9rCLCWGZziIDdVtRp8U0jpFmeE%3D
+D, [2009-07-24T17:18:18.633000 #3020] DEBUG -- : 200
+<?xml version="1.0"?>
+<CreateDomainResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>0bafa49f-4ead-c536-aca1-62cd22a16f59</RequestId><BoxUsage>0.0055590278</BoxUsage></ResponseMetadata></CreateDomainResponse>
+D, [2009-07-24T17:18:18.637000 #3020] DEBUG -- : http://sdb.amazonaws.com?Action=ListDomains&AWSAccessKeyId=0NP33638CHYCXCYGKB82&SignatureVersion=1&Timestamp=2009-07-24T15%3A18%3A18Z&Version=2007-11-07&Signature=V4XCpntClYm4jEeH0IBKOXqFeFY%3D
+D, [2009-07-24T17:18:19.019000 #3020] DEBUG -- : 200
+<?xml version="1.0"?>
+<ListDomainsResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ListDomainsResult><DomainName>twollars_test</DomainName></ListDomainsResult><ResponseMetadata><RequestId>e059353e-a6c2-a5ed-6513-e719a637b483</RequestId><BoxUsage>0.0000071759</BoxUsage></ResponseMetadata></ListDomainsResponse>
+D, [2009-07-24T17:18:19.032000 #3020] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Name&Attribute.0.Replace=true&Attribute.0.Value=Eiso+Kant&Attribute.1.Name=Email&Attribute.1.Replace=true&Attribute.1.Value=eisokant%40gmail.com&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A18%3A19Z&Version=2007-11-07&Signature=0tmozCJvr2hbB7kFQ%2BzYRySjHPA%3D
+D, [2009-07-24T17:18:19.472000 #3020] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>5d823f04-23b3-25ff-bd0a-c1f3e9250a8f</RequestId><BoxUsage>0.0000219923</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:18:19.477000 #3020] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=balance&Attribute.0.Replace=true&Attribute.0.Value=1&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A18%3A19Z&Version=2007-11-07&Signature=nl14j7EKeztSpq2Sonv74G8FbqI%3D
+D, [2009-07-24T17:18:19.938000 #3020] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>f913ccc2-21fa-e984-3a96-a50017e0b6e6</RequestId><BoxUsage>0.0000219909</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:18:19.942000 #3020] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Email&Attribute.0.Replace=true&Attribute.0.Value=contact%40eiso-kant.com&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A18%3A19Z&Version=2007-11-07&Signature=N7fn7wWdcgbxW9aBSkrWAOWBJ8A%3D
+D, [2009-07-24T17:18:20.369000 #3020] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>6df37bf0-23ec-672e-11de-a0438855ec87</RequestId><BoxUsage>0.0000219909</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:18:20.374000 #3020] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Naam&Attribute.0.Replace=true&Attribute.0.Value=Jan&Attribute.1.Name=email&Attribute.1.Replace=true&Attribute.1.Value=jan%40jan.nl&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=2&SignatureVersion=1&Timestamp=2009-07-24T15%3A18%3A20Z&Version=2007-11-07&Signature=QmyllggT87pWFjkZJKQbrgO9cu0%3D
+D, [2009-07-24T17:18:20.821000 #3020] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>fc5f1734-f83e-e34b-bd63-c6bf386bc65d</RequestId><BoxUsage>0.0000219923</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:23:17.178000 #2448] DEBUG -- : http://sdb.amazonaws.com?Action=CreateDomain&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&SignatureVersion=1&Timestamp=2009-07-24T15%3A23%3A17Z&Version=2007-11-07&Signature=gUnYSLRO3mnk1WMojKEWAm2jd%2Bk%3D
+D, [2009-07-24T17:23:23.529000 #2448] DEBUG -- : 200
+<?xml version="1.0"?>
+<CreateDomainResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>77842197-44a5-a733-2a0c-dbd0f15fb41a</RequestId><BoxUsage>0.0055590278</BoxUsage></ResponseMetadata></CreateDomainResponse>
+D, [2009-07-24T17:23:23.533000 #2448] DEBUG -- : http://sdb.amazonaws.com?Action=ListDomains&AWSAccessKeyId=0NP33638CHYCXCYGKB82&SignatureVersion=1&Timestamp=2009-07-24T15%3A23%3A23Z&Version=2007-11-07&Signature=F%2BJNBDBxIlcGV%2Fc4HaiL6nugwZ8%3D
+D, [2009-07-24T17:23:23.907000 #2448] DEBUG -- : 200
+<?xml version="1.0"?>
+<ListDomainsResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ListDomainsResult><DomainName>twollars_test</DomainName></ListDomainsResult><ResponseMetadata><RequestId>763d64fd-f90e-67ec-ca81-7196866c4bdb</RequestId><BoxUsage>0.0000071759</BoxUsage></ResponseMetadata></ListDomainsResponse>
+D, [2009-07-24T17:23:25.600000 #2448] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Name&Attribute.0.Replace=true&Attribute.0.Value=Eiso+Kant&Attribute.1.Name=Email&Attribute.1.Replace=true&Attribute.1.Value=eisokant%40gmail.com&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A23%3A25Z&Version=2007-11-07&Signature=MLBg%2BnlxOW8oV3NeAmf6H2%2Byb6M%3D
+D, [2009-07-24T17:23:26.047000 #2448] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>62a640fa-2f73-f0c2-97de-ffbffd0a58ee</RequestId><BoxUsage>0.0000219923</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:23:26.051000 #2448] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=balance&Attribute.0.Replace=true&Attribute.0.Value=1&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A23%3A26Z&Version=2007-11-07&Signature=K7tNgXY3XEtyky%2BUFx0sxEEKq%2Fg%3D
+D, [2009-07-24T17:23:26.492000 #2448] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>c1e81bcd-907c-e11c-5ad3-4276673f8c95</RequestId><BoxUsage>0.0000219909</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:23:26.496000 #2448] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Email&Attribute.0.Replace=true&Attribute.0.Value=contact%40eiso-kant.com&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A23%3A26Z&Version=2007-11-07&Signature=4hSU0AZeqnKdibdE7OnOHRYh7W8%3D
+D, [2009-07-24T17:23:26.925000 #2448] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>40037712-d8a5-fd5b-2982-077e58e06eef</RequestId><BoxUsage>0.0000219909</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:23:26.930000 #2448] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Naam&Attribute.0.Replace=true&Attribute.0.Value=Jan&Attribute.1.Name=email&Attribute.1.Replace=true&Attribute.1.Value=jan%40jan.nl&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=2&SignatureVersion=1&Timestamp=2009-07-24T15%3A23%3A26Z&Version=2007-11-07&Signature=qqb%2FYVbqh6Gs8jNEWTFaQ4F0Z0Y%3D
+D, [2009-07-24T17:23:27.367000 #2448] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>51a2830f-f68f-0ecc-0b42-f30aa6db2a66</RequestId><BoxUsage>0.0000219923</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:31:45.209000 #4064] DEBUG -- : http://sdb.amazonaws.com?Action=CreateDomain&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&SignatureVersion=1&Timestamp=2009-07-24T15%3A31%3A45Z&Version=2007-11-07&Signature=fM%2B%2FCwNGRvPBkUDFdNUBS1EDVkE%3D
+D, [2009-07-24T17:31:51.026000 #4064] DEBUG -- : 200
+<?xml version="1.0"?>
+<CreateDomainResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>8cf3349b-53d9-226f-e331-e60035be9083</RequestId><BoxUsage>0.0055590278</BoxUsage></ResponseMetadata></CreateDomainResponse>
+D, [2009-07-24T17:31:51.030000 #4064] DEBUG -- : http://sdb.amazonaws.com?Action=ListDomains&AWSAccessKeyId=0NP33638CHYCXCYGKB82&SignatureVersion=1&Timestamp=2009-07-24T15%3A31%3A51Z&Version=2007-11-07&Signature=RabtWbvQoU%2F%2B02AGpd%2FH%2Fxg56j0%3D
+D, [2009-07-24T17:31:51.401000 #4064] DEBUG -- : 200
+<?xml version="1.0"?>
+<ListDomainsResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ListDomainsResult><DomainName>twollars_test</DomainName></ListDomainsResult><ResponseMetadata><RequestId>3ad89a44-47fc-1ca0-0fc9-3c47531eb115</RequestId><BoxUsage>0.0000071759</BoxUsage></ResponseMetadata></ListDomainsResponse>
+D, [2009-07-24T17:31:51.414000 #4064] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Name&Attribute.0.Replace=true&Attribute.0.Value=Eiso+Kant&Attribute.1.Name=Email&Attribute.1.Replace=true&Attribute.1.Value=eisokant%40gmail.com&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A31%3A51Z&Version=2007-11-07&Signature=vbDBKTlXaS0QXJ3QhE0F25FFVk8%3D
+D, [2009-07-24T17:31:51.841000 #4064] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>86db83aa-c437-9074-c6ed-adfdbcd4f1c0</RequestId><BoxUsage>0.0000219923</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:31:51.846000 #4064] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=balance&Attribute.0.Replace=true&Attribute.0.Value=1&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A31%3A51Z&Version=2007-11-07&Signature=W8apB0PnozF9bPG%2B7lg54P2ObLw%3D
+D, [2009-07-24T17:31:52.288000 #4064] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>cfc60a86-cc87-d2eb-6a0b-08df9765a926</RequestId><BoxUsage>0.0000219909</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:31:52.291000 #4064] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Email&Attribute.0.Replace=true&Attribute.0.Value=contact%40eiso-kant.com&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=1&SignatureVersion=1&Timestamp=2009-07-24T15%3A31%3A52Z&Version=2007-11-07&Signature=rskB0wL5%2B6FTX7PtwT7sREwre2o%3D
+D, [2009-07-24T17:31:52.750000 #4064] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>02a04d81-19e6-d622-fe49-df8a7ea109fd</RequestId><BoxUsage>0.0000219909</BoxUsage></ResponseMetadata></PutAttributesResponse>
+D, [2009-07-24T17:31:52.754000 #4064] DEBUG -- : http://sdb.amazonaws.com?Action=PutAttributes&Attribute.0.Name=Naam&Attribute.0.Replace=true&Attribute.0.Value=Jan&Attribute.1.Name=email&Attribute.1.Replace=true&Attribute.1.Value=jan%40jan.nl&AWSAccessKeyId=0NP33638CHYCXCYGKB82&DomainName=twollars_test&ItemName=2&SignatureVersion=1&Timestamp=2009-07-24T15%3A31%3A52Z&Version=2007-11-07&Signature=JKFBXYZd%2BbFRSbR1P8V0LV%2Bjz00%3D
+D, [2009-07-24T17:31:53.193000 #4064] DEBUG -- : 200
+<?xml version="1.0"?>
+<PutAttributesResponse xmlns="http://sdb.amazonaws.com/doc/2007-11-07/"><ResponseMetadata><RequestId>91709b04-2db1-38d0-68f0-75ab2ddcb50a</RequestId><BoxUsage>0.0000219923</BoxUsage></ResponseMetadata></PutAttributesResponse>

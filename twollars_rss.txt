@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	>
+<channel>
+	<title>Comments for TechCrunch</title>
+	<atom:link href="http://www.techcrunch.com/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.techcrunch.com</link>
+	<description>Startup and Technology News</description>
+	<pubDate>Fri, 24 Jul 2009 10:48:09 +0000</pubDate>
+	<generator>http://wordpress.org/?v=2.7.1</generator>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+		<item>
+		<title>Comment on SearchMe Searching For A Buyer by jacob</title>
+		<link>http://www.techcrunch.com/2009/07/24/searchme-searching-for-a-buyer-or-shutdown-could-be-their-future/comment-page-1/#comment-2876297</link>
+		<dc:creator>jacob</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 10:47:40 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=86311#comment-2876297</guid>
+		<description>Seriously, we have to figure this out. According to CrunchBase SearchMe has 52 employees, which is insane. One product manager, one designer, one AS3 programmer and a few backend developers would have been enough. Come on, I bet they're even using Solr or something similar to index their scrapings.
+And don't get me started on the terrible idea of building a visual search engine. When I'm doing my googling I don't care how the pages look like, I just wan't relevant information. And to be honest, in most cases the worst looking pages is the ones with relevant information.</description>
+		<content:encoded><![CDATA[<p>Seriously, we have to figure this out. According to CrunchBase SearchMe has 52 employees, which is insane. One product manager, one designer, one AS3 programmer and a few backend developers would have been enough. Come on, I bet they&#8217;re even using Solr or something similar to index their scrapings.<br />
+And don&#8217;t get me started on the terrible idea of building a visual search engine. When I&#8217;m doing my googling I don&#8217;t care how the pages look like, I just wan&#8217;t relevant information. And to be honest, in most cases the worst looking pages is the ones with relevant information.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on SearchMe Searching For A Buyer by Anuj</title>
+		<link>http://www.techcrunch.com/2009/07/24/searchme-searching-for-a-buyer-or-shutdown-could-be-their-future/comment-page-1/#comment-2876296</link>
+		<dc:creator>Anuj</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 10:47:06 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=86311#comment-2876296</guid>
+		<description>Well its not a waste product but its not marketed properly.</description>
+		<content:encoded><![CDATA[<p>Well its not a waste product but its not marketed properly.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Twitter Unveils A Live-Updating Search Widget by chris</title>
+		<link>http://www.techcrunch.com/2009/07/23/twitter-unveils-a-live-updating-search-widget/comment-page-1/#comment-2876293</link>
+		<dc:creator>chris</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 10:44:30 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=86275#comment-2876293</guid>
+		<description>Didnt work for me..</description>
+		<content:encoded><![CDATA[<p>Didnt work for me..</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on SearchMe Searching For A Buyer by mikae</title>
+		<link>http://www.techcrunch.com/2009/07/24/searchme-searching-for-a-buyer-or-shutdown-could-be-their-future/comment-page-1/#comment-2876288</link>
+		<dc:creator>mikae</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 10:34:21 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=86311#comment-2876288</guid>
+		<description>Then I d suggest you pay your CTO $10,000 worth of Coffee and doughnuts and get him to create for you either a better version of google or a better version of windows 7</description>
+		<content:encoded><![CDATA[<p>Then I d suggest you pay your CTO $10,000 worth of Coffee and doughnuts and get him to create for you either a better version of google or a better version of windows 7</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on The Mac Versus PC Debate Has Never Been Clearer by sYgnal</title>
+		<link>http://www.techcrunch.com/2009/07/23/the-mac-versus-pc-debate-has-never-been-clearer/comment-page-3/#comment-2876284</link>
+		<dc:creator>sYgnal</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 10:25:24 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=85992#comment-2876284</guid>
+		<description>I would agree with this mentality if Apple wasn't ripping people off with over-priced, glorified PCs.
+
+Seriously, I used to be a fan of Mac when they were a hardware driven system but because Mac is now a software driven computer that uses Intel, why should I pay twice as much for something I can build myself?? If you tell me I should because of their OS then you're smoking crack.</description>
+		<content:encoded><![CDATA[<p>I would agree with this mentality if Apple wasn&#8217;t ripping people off with over-priced, glorified PCs.</p>
+<p>Seriously, I used to be a fan of Mac when they were a hardware driven system but because Mac is now a software driven computer that uses Intel, why should I pay twice as much for something I can build myself?? If you tell me I should because of their OS then you&#8217;re smoking crack.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Google Voice Gives Out Free Business Cards, Makes Switching Numbers Slightly Less Irritating by Juan Snyman</title>
+		<link>http://www.techcrunch.com/2009/07/23/google-voice-gives-out-free-business-cards-makes-switching-numbers-slightly-less-incredibly-irritating/comment-page-1/#comment-2876282</link>
+		<dc:creator>Juan Snyman</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 10:20:50 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=86240#comment-2876282</guid>
+		<description>"(the cards instruct people to simply ‘Google’ your name)"
+
+Why did you put Google in quotation marks? Google is a verb, remember? :P</description>
+		<content:encoded><![CDATA[<p>&#8220;(the cards instruct people to simply ‘Google’ your name)&#8221;</p>
+<p>Why did you put Google in quotation marks? Google is a verb, remember? <img src='http://www.techcrunch.com/wp-includes/images/smilies/icon_razz.gif' alt=':P' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on ChaCha Never Lets Me Down, Even When They Let Me Down. They Raise $4 Million More by <fb:name linked="false" useyou="false" uid="500927708">Vinod Ponmanadiyil</fb:name></title>
+		<link>http://www.techcrunch.com/2009/07/23/chacha-never-lets-me-down-even-when-they-let-me-down-they-raise-4-million-more/comment-page-1/#comment-2876263</link>
+		<dc:creator><fb:name linked="false" useyou="false" uid="500927708">Vinod Ponmanadiyil</fb:name></dc:creator>
+		<pubDate>Fri, 24 Jul 2009 09:56:10 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=86301#comment-2876263</guid>
+		<description>Aardvark's network is yielding some pretty fast n good answers these days.</description>
+		<content:encoded><![CDATA[<p>Aardvark&#8217;s network is yielding some pretty fast n good answers these days.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on The Mac Versus PC Debate Has Never Been Clearer by VinnieD</title>
+		<link>http://www.techcrunch.com/2009/07/23/the-mac-versus-pc-debate-has-never-been-clearer/comment-page-3/#comment-2876259</link>
+		<dc:creator>VinnieD</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 09:48:09 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=85992#comment-2876259</guid>
+		<description>Mac's are for morons, the comments defending MAC are absurd, the underlying hardware is all intel, the only difference is in software and apps and the minor differences in behaviour.
+
+If you don't do a lot on your computer MAC /w OSX is wonderfull, if you do A LOT on your computer Win XP, or Vista just gives you way more options.
+
+MAC is not a luxury brand it is an excuse to extort money from the technologically clueless and for people who subscribe to superficial externals of form over substance.
+
+All one is paying for with a MAC is case styling in terms of laptop/desktop machine and a logo and the love of being extorted for money.</description>
+		<content:encoded><![CDATA[<p>Mac&#8217;s are for morons, the comments defending MAC are absurd, the underlying hardware is all intel, the only difference is in software and apps and the minor differences in behaviour.</p>
+<p>If you don&#8217;t do a lot on your computer MAC /w OSX is wonderfull, if you do A LOT on your computer Win XP, or Vista just gives you way more options.</p>
+<p>MAC is not a luxury brand it is an excuse to extort money from the technologically clueless and for people who subscribe to superficial externals of form over substance.</p>
+<p>All one is paying for with a MAC is case styling in terms of laptop/desktop machine and a logo and the love of being extorted for money.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on The Mac Versus PC Debate Has Never Been Clearer by Johnnie Foxtrott</title>
+		<link>http://www.techcrunch.com/2009/07/23/the-mac-versus-pc-debate-has-never-been-clearer/comment-page-3/#comment-2876244</link>
+		<dc:creator>Johnnie Foxtrott</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 09:35:13 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=85992#comment-2876244</guid>
+		<description>You could get OSx86. Buy a Leopard license, install your Hac and everything will be fine without getting illegal. From one day to another, you have a MacPro under your desktop.</description>
+		<content:encoded><![CDATA[<p>You could get OSx86. Buy a Leopard license, install your Hac and everything will be fine without getting illegal. From one day to another, you have a MacPro under your desktop.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on The Mac Versus PC Debate Has Never Been Clearer by Johnnie Foxtrott</title>
+		<link>http://www.techcrunch.com/2009/07/23/the-mac-versus-pc-debate-has-never-been-clearer/comment-page-3/#comment-2876233</link>
+		<dc:creator>Johnnie Foxtrott</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 09:27:58 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=85992#comment-2876233</guid>
+		<description>If I've got about 1000 euros (say dollars, whatever premium price), I'll totally get more power and speed buying a PC instead of a Mac. I don't need a laser-cutted case and a looming Apple-logo on the back.</description>
+		<content:encoded><![CDATA[<p>If I&#8217;ve got about 1000 euros (say dollars, whatever premium price), I&#8217;ll totally get more power and speed buying a PC instead of a Mac. I don&#8217;t need a laser-cutted case and a looming Apple-logo on the back.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on SearchMe Searching For A Buyer by Robotics</title>
+		<link>http://www.techcrunch.com/2009/07/24/searchme-searching-for-a-buyer-or-shutdown-could-be-their-future/comment-page-1/#comment-2876229</link>
+		<dc:creator>Robotics</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 09:24:11 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=86311#comment-2876229</guid>
+		<description>What is their business model? It doesn't look like something that can be monetized using an Adwords or display advertising model. 
+
+How did they spend the $40 million dollars?</description>
+		<content:encoded><![CDATA[<p>What is their business model? It doesn&#8217;t look like something that can be monetized using an Adwords or display advertising model. </p>
+<p>How did they spend the $40 million dollars?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on ChaCha Never Lets Me Down, Even When They Let Me Down. They Raise $4 Million More by laura</title>
+		<link>http://www.techcrunch.com/2009/07/23/chacha-never-lets-me-down-even-when-they-let-me-down-they-raise-4-million-more/comment-page-1/#comment-2876218</link>
+		<dc:creator>laura</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 09:17:19 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=86301#comment-2876218</guid>
+		<description>teehhee heee!!! v funny</description>
+		<content:encoded><![CDATA[<p>teehhee heee!!! v funny</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Kontera Raises $15.5M For Annoying In-Text Advertising Technology by Munir</title>
+		<link>http://www.techcrunch.com/2009/07/23/kontera-raises-155m-for-annoying-in-text-advertising-technology/comment-page-1/#comment-2876213</link>
+		<dc:creator>Munir</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 09:12:39 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=85966#comment-2876213</guid>
+		<description>Just cant stop my self to comment on your blog. Good post. :)</description>
+		<content:encoded><![CDATA[<p>Just cant stop my self to comment on your blog. Good post. <img src='http://www.techcrunch.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on ChaCha Never Lets Me Down, Even When They Let Me Down. They Raise $4 Million More by Dude</title>
+		<link>http://www.techcrunch.com/2009/07/23/chacha-never-lets-me-down-even-when-they-let-me-down-they-raise-4-million-more/comment-page-1/#comment-2876211</link>
+		<dc:creator>Dude</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 09:11:57 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=86301#comment-2876211</guid>
+		<description>Yahoo Answers. Great human powered search engine. Get some awesome answers sometimes...</description>
+		<content:encoded><![CDATA[<p>Yahoo Answers. Great human powered search engine. Get some awesome answers sometimes&#8230;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on The Anatomy Of The Twitter Attack by Bob</title>
+		<link>http://www.techcrunch.com/2009/07/19/the-anatomy-of-the-twitter-attack/comment-page-5/#comment-2876210</link>
+		<dc:creator>Bob</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 09:10:51 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=83311#comment-2876210</guid>
+		<description>A couple of commenters noted the article's rambling nature. The digressions into elementary blather were almost too much, but I waded through hoping for a reward that didn't come.
+
+Unfortunate bit of writing.</description>
+		<content:encoded><![CDATA[<p>A couple of commenters noted the article&#8217;s rambling nature. The digressions into elementary blather were almost too much, but I waded through hoping for a reward that didn&#8217;t come.</p>
+<p>Unfortunate bit of writing.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Why Is Google Latitude A Web App And Not A Native App? Because Apple Said So. by JP</title>
+		<link>http://www.techcrunch.com/2009/07/23/why-is-google-latitude-a-web-app-and-not-a-native-app-because-apple-said-so/comment-page-1/#comment-2876203</link>
+		<dc:creator>JP</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 09:07:12 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=86140#comment-2876203</guid>
+		<description>@MG Siegler, whose iPhone is it on the screenshot ? Anyway, thanks for buying Moonlights ^_-</description>
+		<content:encoded><![CDATA[<p>@MG Siegler, whose iPhone is it on the screenshot ? Anyway, thanks for buying Moonlights ^_-</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on SearchMe Searching For A Buyer by AndreaF</title>
+		<link>http://www.techcrunch.com/2009/07/24/searchme-searching-for-a-buyer-or-shutdown-could-be-their-future/comment-page-1/#comment-2876197</link>
+		<dc:creator>AndreaF</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 09:00:02 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=86311#comment-2876197</guid>
+		<description>I bet my CTO could have hacked it with $ 44 dollars worth of coffee and doughnuts.
+Cool app, but $ 44mil is a joke.</description>
+		<content:encoded><![CDATA[<p>I bet my CTO could have hacked it with $ 44 dollars worth of coffee and doughnuts.<br />
+Cool app, but $ 44mil is a joke.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Twitter Unveils A Live-Updating Search Widget by Daniel</title>
+		<link>http://www.techcrunch.com/2009/07/23/twitter-unveils-a-live-updating-search-widget/comment-page-1/#comment-2876194</link>
+		<dc:creator>Daniel</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 08:55:13 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=86275#comment-2876194</guid>
+		<description>I don’t like most of the Twitter widgets, but this one seems to work fine. thx.</description>
+		<content:encoded><![CDATA[<p>I don’t like most of the Twitter widgets, but this one seems to work fine. thx.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Gmail Tries To Make It Easier To Unsubscribe From Spam Newsletters, But Fails by Anonboard.com</title>
+		<link>http://www.techcrunch.com/2009/07/23/gmail-tries-to-make-it-easier-to-unsubscribe-from-spam-newsletters-but-fails/comment-page-1/#comment-2876187</link>
+		<dc:creator>Anonboard.com</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 08:41:09 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=85998#comment-2876187</guid>
+		<description>Yeah, this doesn't fail at all. If you send back something to the spammers they know it's a used message box so they spam more. Were you born yesterday?</description>
+		<content:encoded><![CDATA[<p>Yeah, this doesn&#8217;t fail at all. If you send back something to the spammers they know it&#8217;s a used message box so they spam more. Were you born yesterday?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Biz Stone Talks Twitter At Fortune Brainstorm by Dennis</title>
+		<link>http://www.techcrunch.com/2009/07/23/biz-stone-talks-twitter-at-fortune-brainstorm/comment-page-1/#comment-2876183</link>
+		<dc:creator>Dennis</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 08:34:22 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=86163#comment-2876183</guid>
+		<description>*dismissive wank</description>
+		<content:encoded><![CDATA[<p>*dismissive wank</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Y Combinator&#8217;s Mixpanel Takes Stat Tracking Beyond Google Analytics by Engago team</title>
+		<link>http://www.techcrunch.com/2009/07/23/y-combinators-mixpanel-takes-stat-tracking-beyond-google-analytics/comment-page-1/#comment-2876180</link>
+		<dc:creator>Engago team</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 08:33:11 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=86149#comment-2876180</guid>
+		<description>Great for B2C, but in B2B one needs to segregate residential from corporate visitors to get the correct insight in your funnel. Try LEADSExplorer.</description>
+		<content:encoded><![CDATA[<p>Great for B2C, but in B2B one needs to segregate residential from corporate visitors to get the correct insight in your funnel. Try LEADSExplorer.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on The Mac Versus PC Debate Has Never Been Clearer by Dennis</title>
+		<link>http://www.techcrunch.com/2009/07/23/the-mac-versus-pc-debate-has-never-been-clearer/comment-page-3/#comment-2876179</link>
+		<dc:creator>Dennis</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 08:31:40 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=85992#comment-2876179</guid>
+		<description>"Less then 10% of the market consists of laptops over $1k so 91% of less then 10% is not a great stat to be proud of."
+
+Thank you. That is exactly what i thought when i read this.</description>
+		<content:encoded><![CDATA[<p>&#8220;Less then 10% of the market consists of laptops over $1k so 91% of less then 10% is not a great stat to be proud of.&#8221;</p>
+<p>Thank you. That is exactly what i thought when i read this.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on SearchMe Searching For A Buyer by Andy Gongea</title>
+		<link>http://www.techcrunch.com/2009/07/24/searchme-searching-for-a-buyer-or-shutdown-could-be-their-future/comment-page-1/#comment-2876168</link>
+		<dc:creator>Andy Gongea</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 08:23:13 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=86311#comment-2876168</guid>
+		<description>Yeap, 44 mill were wasted on this product from my point of view. No one will buy it.</description>
+		<content:encoded><![CDATA[<p>Yeap, 44 mill were wasted on this product from my point of view. No one will buy it.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on The Mac Versus PC Debate Has Never Been Clearer by Anurag</title>
+		<link>http://www.techcrunch.com/2009/07/23/the-mac-versus-pc-debate-has-never-been-clearer/comment-page-1/#comment-2876167</link>
+		<dc:creator>Anurag</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 08:21:14 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=85992#comment-2876167</guid>
+		<description>iPhone development can only be done on a Mac</description>
+		<content:encoded><![CDATA[<p>iPhone development can only be done on a Mac</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Microsoft&#8217;s Money Pit.  Every Dollar Of Online Revenue Is Wiped Out By A Dollar Of Loss by Judo</title>
+		<link>http://www.techcrunch.com/2009/07/23/microsofts-money-pit-every-dollar-of-online-revenue-is-wiped-out-by-a-dollar-of-loss/comment-page-1/#comment-2876165</link>
+		<dc:creator>Judo</dc:creator>
+		<pubDate>Fri, 24 Jul 2009 08:20:06 +0000</pubDate>
+		<guid isPermaLink="false">http://www.techcrunch.com/?p=86065#comment-2876165</guid>
+		<description>yeah this sure is a weak story - even the title is wrong - revenue isn't wiped out by loss, it is wiped out by expense,  profit/loss is the net result.
+
+The maths is wrong as a result..</description>
+		<content:encoded><![CDATA[<p>yeah this sure is a weak story - even the title is wrong - revenue isn&#8217;t wiped out by loss, it is wiped out by expense,  profit/loss is the net result.</p>
+<p>The maths is wrong as a result..</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Dynamic Page Served (once) in 0.157 seconds -->
+<!-- Cached page served by WP-Cache -->
