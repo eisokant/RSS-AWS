@@ -1,0 +1,8 @@
+#!/usr/bin/expect
+
+spawn apt-get -y install mysql-server
+expect "New password for the MySQL \"root\" user:"
+send "GU149La8\r"
+expect "Repeat password for the MySQL \"root\" user:"
+send "GU149La8\r"
+expect eof

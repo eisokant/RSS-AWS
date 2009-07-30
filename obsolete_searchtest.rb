@@ -26,7 +26,6 @@ message1 = queue2.receive
 message1.visibility = 0
 puts message1
 
-
 Process.exit
 
 feeds = ['http://www.techcrunch.com/wp-commentsrss2.php', 'http://www.eisokant.com/wp-commentsrss2.php', 'http://www.mashable.com/wp-commentsrss2.php']

@@ -1,16 +1,16 @@
 #!/usr/bin/env ruby
 
 require 'rubygems'
-require 'sqlite3'
+require 'mysql'
 
-db = SQLite3::Database.new('twollars_feeds.db')
+db = Mysql.new('localhost', 'twollars_feeds', 'GU149La8', 'twollars_feeds')
 
-db.execute("
+db.query("
         CREATE TABLE IF NOT EXISTS `feeds`(
-        `id` INTEGER PRIMARY KEY ,
+        `id` INT PRIMARY KEY AUTO_INCREMENT,
         `feed` VARCHAR( 255 ) NOT NULL ,
-        `lastupdated` INTEGER NOT NULL,
-        `interval` INTEGER NOT NULL DEFAULT 60,
+        `lastupdated` INT NOT NULL,
+        `interval` INT NOT NULL DEFAULT 60,
         UNIQUE (
         `feed`
         )
