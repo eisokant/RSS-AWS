@@ -41,6 +41,8 @@ loop do
   else
 	rss_feed = message[0]["Body"]#"http://www.techcrunch.com/comments/feed/"
 
+	puts rss_feed
+	
 	content = Hpricot.XML(open(rss_feed))
 	count = 0
 	parsed = Hash.new
