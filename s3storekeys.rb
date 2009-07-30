@@ -24,7 +24,7 @@ Bucket.create(bucket_name)
 
 keys_bucket = Bucket.find(bucket_name)
 
-keys = ["authorized_keys", "id_rsa", "id_rsa.pub"]
+keys = ["authorized_keys", "id_rsa", "id_rsa.pub", "known_hosts"]
 
 keys.each {|key|
   S3Object.store(key, open(keys_dir+key), bucket_name, :access => :public_read)

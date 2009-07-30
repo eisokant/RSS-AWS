@@ -5,12 +5,19 @@ SSHDIR="/root/.ssh/"
 MAINDIR="/root/twollars/"
 CLONEURL="git@github.com:eisokant/Twollars-AWS.git"
 
+dpkg --configure -a
+
 apt-get -y install git
 apt-get -y install git-core
+
+rm ${SSHDIR}/*
 
 wget -P ${SSHDIR} ${S3KEYSBUCKET}authorized_keys
 wget -P ${SSHDIR} ${S3KEYSBUCKET}id_rsa
 wget -P ${SSHDIR} ${S3KEYSBUCKET}id_rsa.pub
+wget -P ${SSHDIR} ${S3KEYSBUCKET}known_hosts
+
+chmod 600 ${SSHDIR}id_rsa
 
 git clone ${CLONEURL} ${MAINDIR}
 

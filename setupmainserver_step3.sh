@@ -9,7 +9,7 @@ apt-get -y install mysql-client libmysqlclient15-dev
 apt-get -y install libmysql-ruby1.8 
  
 # Install MySQL, Daemons and Right AWS Ruby Gem used for SQS
-gem install right_aws daemons
+gem install right_aws daemons aws-s3
 
 # http://jetpackweb.com/blog/2009/07/20/bash-script-to-create-mysql-database-and-user
 MYSQL=`which mysql`
