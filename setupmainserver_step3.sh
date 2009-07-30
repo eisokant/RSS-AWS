@@ -1,5 +1,9 @@
 #!/bin/bash
 
+MYSQLPASSWORD="GU149La8"
+
+dpkg --configure -a
+
 apt-get -y install mysql-client libmysqlclient15-dev
  
 apt-get -y install libmysql-ruby1.8 
@@ -15,10 +19,4 @@ Q2="GRANT ALL ON *.* TO 'twollars_feeds'@'localhost' IDENTIFIED BY 'GU149La8';"
 Q3="FLUSH PRIVILEGES;"
 SQL="${Q1}${Q2}${Q3}"
 
-$MYSQL -uroot -pGU149La8 -e "$SQL"
-
-ruby createtables.rb
-ruby clearqueue.rb
-ruby inserttestdata.rb
-ruby insertfeed_control.rb start
-ruby inserttask_control.rb start
+$MYSQL -uroot -p${MYSQLPASSWORD} -e "$SQL"
