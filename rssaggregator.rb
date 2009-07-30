@@ -20,63 +20,88 @@ require 'right_aws'
 ENV['AMAZON_ACCESS_KEY_ID'] = '0NP33638CHYCXCYGKB82'
 ENV['AMAZON_SECRET_ACCESS_KEY'] = 'uISvWmpU97xhMaqt5muEX4czYak19bjHay+IrHTZ'
 
-domain = 'twollars_rss_data'
-bucket_name = 'twollars_rss_data'
+domain = 'twollars-rss-data'
+bucket_name = 'twollars-rss-data'
 
 include AwsSdb
 include AwsSdb::Request
 include AWS::S3
 
+begin
+  request = CreateDomain.new({:name => domain})
+  open(request.uri)
+rescue => e
+  pp e
+end
+	  
 Base.establish_connection!(:access_key_id => ENV['AMAZON_ACCESS_KEY_ID'], :secret_access_key => ENV['AMAZON_SECRET_ACCESS_KEY'])
-twollars_bucket = Bucket.find(bucket_name)
+
+begin
+  twollars_bucket = Bucket.find(bucket_name)
+rescue ResponseError => error                                                   
+  twollars_bucket = Bucket.create(bucket_name)
+end
 
 sqs = RightAws::SqsGen2Interface.new(ENV['AMAZON_ACCESS_KEY_ID'], ENV['AMAZON_SECRET_ACCESS_KEY'])
 
 qurl = sqs.queue_url_by_name('twollars_tasks')
 
 loop do
-  message = sqs.receive_message(qurl, 1, 180)
-  if message.empty?
+  
+  messages = sqs.receive_message(qurl, 1, 180)
+  if messages.empty?
 	sleep(60)
   else
-	rss_feed = message[0]["Body"]#"http://www.techcrunch.com/comments/feed/"
-
-	puts rss_feed
+    messages.each{|message|
 	
-	content = Hpricot.XML(open(rss_feed))
-	count = 0
-	parsed = Hash.new
+	  rss_feed = message["Body"]#"http://www.techcrunch.com/comments/feed/"
+	
+	  begin
+	    feed_file = open(rss_feed)
+	  rescue => e
+	    pp e
+	  end
+	
+	  content = Hpricot.XML(feed_file)
+	  count = 0
+	  parsed = Hash.new
 
-	(content/:item).each do |item| 
+      (content/:item).each do |item| 
 	 
-	  h_item = Hash.new
+	    h_item = Hash.new
 	   
-	  guid = (item/:guid).inner_html
-	  description = (item/:description).inner_html   
-	  key_string = rss_feed + guid
+	    guid = (item/:guid).inner_html
+	    description = (item/:description).inner_html   
+	    key_string = rss_feed + guid
 	   
-	  key = UUIDTools::UUID.sha1_create(UUIDTools::UUID_DNS_NAMESPACE, key_string).to_s
-	  item_name = UUIDTools::UUID.sha1_create(UUIDTools::UUID_DNS_NAMESPACE, guid).to_s
+	    key = UUIDTools::UUID.sha1_create(UUIDTools::UUID_DNS_NAMESPACE, key_string).to_s
+	    item_name = UUIDTools::UUID.sha1_create(UUIDTools::UUID_DNS_NAMESPACE, guid).to_s
 	   
-	  S3Object.store(key, description, bucket_name, :access => :public_read)
+	    S3Object.store(key, description, bucket_name, :access => :public_read)
 	   
-	  item.containers.each do |node|	
-		if node.name == 'description'
-		  h_item[node.name] = {:value => key, :replace => true}
-		else
-		  h_item[node.name]= {:value => node.inner_html, :replace => true}
-		end
-	  end 
+	    item.containers.each do |node|	
+		  if node.name == 'description'
+		    h_item[node.name] = {:value => key, :replace => true}
+		  else
+		    h_item[node.name]= {:value => node.inner_html.slice(0, 1024), :replace => true}
+		  end
+	    end 
 		  
-	  h_item["rss_source"] = {:value => rss_feed, :replace => true}
+	    h_item["rss_source"] = {:value => rss_feed, :replace => true}
 	   
-	  request = PutAttributes.new(:domain => domain, :name => item_name)
-	  request.attributes = h_item
-	  open(request.uri)
+	    request = PutAttributes.new(:domain => domain, :name => item_name)
+	    request.attributes = h_item
 	  
-	  parsed[count] = h_item
-	  count = count +1   
-	end
-	sqs.delete_message(qurl, message[0]["ReceiptHandle"])
+	    begin
+		  open(request.uri)
+	    rescue => e
+		  pp e
+	    end
+	
+	    parsed[count] = h_item
+	    count = count +1   
+	    sqs.delete_message(qurl, message[0]["ReceiptHandle"])
+	  end
+	}
   end
 end
