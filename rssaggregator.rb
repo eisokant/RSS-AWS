@@ -47,61 +47,97 @@ sqs = RightAws::SqsGen2Interface.new(ENV['AMAZON_ACCESS_KEY_ID'], ENV['AMAZON_SE
 qurl = sqs.queue_url_by_name('twollars_tasks')
 
 loop do
-  
-  messages = sqs.receive_message(qurl, 1, 180)
-  if messages.empty?
-	sleep(60)
-  else
-    messages.each{|message|
-	
-	  rss_feed = message["Body"]#"http://www.techcrunch.com/comments/feed/"
-	
-	  begin
-	    feed_file = open(rss_feed)
-	  rescue => e
-	    pp e
-	  end
-	
-	  content = Hpricot.XML(feed_file)
-	  count = 0
-	  parsed = Hash.new
 
-      (content/:item).each do |item| 
-	 
-	    h_item = Hash.new
-	   
-	    guid = (item/:guid).inner_html
-	    description = (item/:description).inner_html   
-	    key_string = rss_feed + guid
-	   
-	    key = UUIDTools::UUID.sha1_create(UUIDTools::UUID_DNS_NAMESPACE, key_string).to_s
-	    item_name = UUIDTools::UUID.sha1_create(UUIDTools::UUID_DNS_NAMESPACE, guid).to_s
-	   
-	    S3Object.store(key, description, bucket_name, :access => :public_read)
-	   
-	    item.containers.each do |node|	
-		  if node.name == 'description'
-		    h_item[node.name] = {:value => key, :replace => true}
-		  else
-		    h_item[node.name]= {:value => node.inner_html.slice(0, 1024), :replace => true}
-		  end
-	    end 
-		  
-	    h_item["rss_source"] = {:value => rss_feed, :replace => true}
-	   
-	    request = PutAttributes.new(:domain => domain, :name => item_name)
-	    request.attributes = h_item
-	  
+  messages = Array.new
+  threads_feeds = Array.new
+  
+  100.times do
+    response = sqs.receive_message(qurl, 1, 180)
+	if response.empty?
+      break
+    end
+    messages << response
+  end
+
+  count =0
+  feedmsgs = Hash.new
+  feedsraw = Array.new
+
+  total = messages.inject([]) { |result,h|
+  if not result.include?(h[0]["Body"])
+    result << h[0]["Body"]
+    feedsraw[count] = h
+    resultx = Hash.new
+    resultx["Body"] = h[0]["Body"]
+    resultx["ReceiptHandle"] = h[0]["ReceiptHandle"]
+    feedmsgs[count] = resultx
+    count = count+1
+  end
+  result
+  }
+
+  #pp feedmsgs
+  puts feedmsgs.length
+  arch = messages-feedsraw
+  puts arch.length
+  
+  if feedmsgs.empty?
+        sleep(60)
+  else
+    feedmsgs.each{|message|
+
+	  threads_feeds << Thread.new(message[1]) { |msg|
+	
+	    rss_feed = msg["Body"] #"http://www.techcrunch.com/comments/feed/"
+	
 	    begin
-		  open(request.uri)
+	      feed_file = open(rss_feed)
 	    rescue => e
-		  pp e
+	      pp e
 	    end
 	
-	    parsed[count] = h_item
-	    count = count +1   
-	    sqs.delete_message(qurl, message[0]["ReceiptHandle"])
-	  end
+	    content = Hpricot.XML(feed_file)
+	    count = 0
+	    parsed = Hash.new
+
+        (content/:item).each do |item| 
+	 
+	      h_item = Hash.new
+	   
+	      guid = (item/:guid).inner_html
+	      description = (item/:description).inner_html   
+	      key_string = rss_feed + guid
+	   
+	      key = UUIDTools::UUID.sha1_create(UUIDTools::UUID_DNS_NAMESPACE, key_string).to_s
+	      item_name = UUIDTools::UUID.sha1_create(UUIDTools::UUID_DNS_NAMESPACE, guid).to_s
+	   
+	      S3Object.store(key, description, bucket_name, :access => :public_read)
+	   
+	      item.containers.each do |node|	
+		    if node.name == 'description'
+		      h_item[node.name] = {:value => key, :replace => true}
+		    else
+		      h_item[node.name]= {:value => node.inner_html.slice(0, 1024), :replace => true}
+		    end
+	      end 
+		  
+	      h_item["rss_source"] = {:value => rss_feed, :replace => true}
+	   
+	      request = PutAttributes.new(:domain => domain, :name => item_name)
+	      request.attributes = h_item
+	  
+	      begin
+		    open(request.uri)
+	      rescue => e
+		    pp e
+	      end
+	
+	      parsed[count] = h_item
+	      count = count +1   
+	      sqs.delete_message(qurl, msg["ReceiptHandle"])
+	    end
+	  }	
 	}
+	threads_feeds.each { |aThread|  aThread.join }
   end
 end
