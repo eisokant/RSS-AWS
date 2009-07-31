@@ -9,4 +9,4 @@ options = {
   :monitor    => true
 }
 
-Daemons.run('insertfeed.rb', options)
+Daemons.run('/root/twollars/insertfeed.rb', options)
