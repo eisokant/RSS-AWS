@@ -6,6 +6,8 @@ read: http://amazon.rubyforge.org/
 read: http://wiki.github.com/why/hpricot/hpricot-xml sudo 
 gem install uuidtools open-uri hpricot right_aws curb
 sudo gem install hungryblank-aws_sdb_bare eisokant-aws-s3 -s http://gems.github.com 
+S3 Comment Storage
+#http://twollars-rss-data.s3.amazonservices.com/be7ae9cf-98d8-50a3-8e78-2de58fcb9937
 =end 
 
 require 'rubygems' 
