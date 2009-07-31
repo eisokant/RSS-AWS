@@ -9,4 +9,4 @@ options = {
   :monitor    => true
 }
 
-Daemons.run('inserttask.rb', options)
+Daemons.run('/root/twollars/inserttask.rb', options)
